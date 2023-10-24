@@ -1,16 +1,12 @@
+import { Character } from "../../types";
+
 interface CharacterCardProps {
-  name: string;
-  height: string;
-  mass: string;
-  date: string;
+  character: Character;
   picture: string;
 }
 
 const CharacterCard = ({
-  name,
-  height,
-  mass,
-  date,
+  character: { name, height, mass, created },
   picture,
 }: CharacterCardProps): React.ReactElement => {
   return (
@@ -25,7 +21,7 @@ const CharacterCard = ({
       <h2 className="character__name">{name}</h2>
       <span className="character__height">{height}</span>
       <span className="character__mass">{mass}</span>
-      <span className="character__date">{date}</span>
+      <span className="character__date">{created}</span>
     </div>
   );
 };
