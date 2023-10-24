@@ -10,4 +10,5 @@ export interface Character {
   height: string;
   mass: string;
   created: string;
+  picture: string;
 }
