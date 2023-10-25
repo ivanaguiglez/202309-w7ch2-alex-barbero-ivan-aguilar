@@ -21,6 +21,7 @@ const CharacterCard = ({
       <h2 className="character__name">{name}</h2>
       <span className="character__height">{height}</span>
       <span className="character__mass">{mass}</span>
+
       <span className="character__date">{created}</span>
     </div>
   );
