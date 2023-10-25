@@ -12,7 +12,7 @@ const CharacterCard = ({
   return (
     <div className="character__card">
       <img
-        className="caharacter__picture"
+        className="character__picture"
         src={picture}
         alt={`Here you can see ${name}`}
         width="100"
