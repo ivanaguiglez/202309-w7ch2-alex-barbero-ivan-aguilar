@@ -1,0 +1,24 @@
+.main-container {
+  padding: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://i.pinimg.com/564x/40/c7/12/40c712e5f3833bc38dbe1213da27069e.jpg");
+}
+
+.characters {
+  padding: 30px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: auto;
+}
+
+@media (min-width: 800px) {
+  .characters {
+    padding: 30px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: auto auto auto;
+  }
+}
