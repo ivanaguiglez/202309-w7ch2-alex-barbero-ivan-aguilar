@@ -17,7 +17,7 @@ const CharacterCard = ({
         src={picture}
         alt={`Here you can see ${name}`}
         width="100"
-        height="150"
+        height="166"
       />
       <h2 className="character-card__title">{name}</h2>
       <span className="character-card__data">
