@@ -1,0 +1,40 @@
+.character-card {
+  display: flex;
+  padding: 20px;
+  background-color: rgb(115, 115, 115);
+  border: solid 10px #505050;
+  border-radius: 30px 0px 30px 50px;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.character-card__title {
+  font-size: 30px;
+  margin: 10px 0;
+  text-align: end;
+  color: #dfc97a;
+}
+
+.character-card__data {
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 12px;
+  margin: 5px;
+  text-align: end;
+}
+
+.character-card__data-value {
+  color: white;
+}
+
+.character-card__picture {
+  width: 100%;
+  height: auto;
+  border-radius: 20px 0 20px 60px;
+  border: solid 2px #505050;
+}
+
+@media (min-width: 800px) {
+  .character-card__picture {
+    width: 80%;
+  }
+}
