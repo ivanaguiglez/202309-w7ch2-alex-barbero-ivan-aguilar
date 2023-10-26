@@ -1,5 +1,5 @@
 interface ButtonProps {
-  symbol: "string";
+  symbol: string;
   actionOnClick: () => void;
 }
 
